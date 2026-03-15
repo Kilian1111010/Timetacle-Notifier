@@ -73,24 +73,3 @@ Ohne vollständige Settings laufen die Funktionen nicht.
 4. Konfiguriere die Settings (siehe Abschnitt "Konfiguration").
 
 5. Die Cron-Jobs laufen nun in der Cloud und senden Benachrichtigungen.
-
-## Konfiguration
-
-- **Cron-Intervall**: In `convex/crons.ts` auf 5 Minuten gesetzt. Ändere bei Bedarf.
-- **Timeacle-URLs**: Passe die `timacleUrl` und `bookingUrl` in den Settings an.
-- **WhatsApp**: Stelle sicher, dass CallMeBot konfiguriert ist (API-Key und Nummer).
-
-## Fehlerbehebung
-
-- **Server startet nicht**: Stelle sicher, dass Port 3210 frei ist. Verwende `--port 3211` für alternativen Port.
-- **Keine Benachrichtigungen**: Prüfe, ob alle Settings gesetzt sind und `debug: true` für Logs.
-- **API-Fehler**: Überprüfe URLs und API-Keys im Dashboard.
-
-## Sicherheit
-
-- Speichere API-Keys und sensible Daten nur in der DB (nicht im Code).
-- Verwende für Produktion immer die Cloud-Deployment.
-
-## Lizenz
-
-Dieses Projekt ist privat und nur für persönliche Nutzung.
