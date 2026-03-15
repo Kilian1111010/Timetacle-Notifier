@@ -22,6 +22,10 @@ Termin-Überwachung mit WhatsApp-Benachrichtigungen für Timeacle-basierte Buchu
    ```bash
    npm install
    ```
+3. Installiere Convex:
+   ```bash
+   npm install -g convex
+   ```
 
 ## Konfiguration
 
